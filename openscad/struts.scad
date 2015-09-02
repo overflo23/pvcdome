@@ -1,27 +1,34 @@
 /*
-2. sept 2015 - overflo
-Licence: CC-AT
 
-this script generates connectors for a PVC pipe dome.
+2. sept 2015 - overflo from metalab.at / https://metalab.at/wiki/Benutzer:Overflo
 
-i built a dome out of wooden staffs @ CCCamp2015 and it was good, but hard to transport.
-so i came up with the idea of a PVC pipe dome as they are cheap and readly available in all european countries.
-
-during the night of day4 we had a micro-apocalypse aka thunderstorm with lightnigs and everything.
-i was "trapped" at the belgian fablab bus and it was good.
-there i met  lieven standaert and we had a little chat and i told him about my PCVC dome plans and suddenly he pulled out a little connector that he made for exactly that purpose.
-out of the ~5000 people i met the one i needed to talk to about this project.
-He gave me a sample connector he made out of 6mm Polypropylene at his hackerspace for me as a sample
-some weeks later i got this script working and can now generate any kind of connector.
+This work is licensed under
+Creative Commons Attribution 4.0 International License
 
 
-just call the connector() function with a list of ariables and degree offsets and you are fine.
-the samples bleow are from http://www.acidome.ru/lab/calc/
+This script generates connectors for a PVC pipe dome.
+
+I built a dome out of wooden staffs @ CCCamp2015 and it was good, but hard to transport because it is so heavy.
+So i came up with the idea of a PVC pipe dome as they are cheap and readly available in all european countries.
+
+During the night of day4 we had a micro-apocalypse aka thunderstorm with lightnings and everything.
+I was "trapped" at the belgian fablab bus but it turned out to be very good.
+There i met Lieven Standaert and we had a little chat and i told him about my PVC dome plans and suddenly he pulled out a little connector that he made for exactly that purpose.
+
+Out of the ~5000 people at the camosite, i met the one i needed to talk to about this project.
+He gave me a sample connector he made out of 6mm Polypropylene at his hackerspace for me as a sample.
+Some weeks later i got this script working and can now generate any kind of connector.
+
+Usage:
+Just call the connector() function with a list of variables and degree offsets and you are fine.
+The samples below are from http://www.acidome.ru/lab/calc/
 V4, equal arcs, flat base
 
 
 
 
+Have fun and tell me about your project!
+I love to see how the world is changing trough things that people share..
 
 */
 
