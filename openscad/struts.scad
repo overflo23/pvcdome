@@ -24,7 +24,7 @@ Just call the connector() function with a list of variables and degree offsets a
 The samples below are from http://www.acidome.ru/lab/calc/
 V4, equal arcs, flat base
 
-For usage skip to the last 20 lines or so and you will fina a list of labels and degrees and how to call the connector() functioni. It is easy.
+For usage skip to the last 20 lines or so and you will find a list of labels and degrees and how to call the connector() function. It is easy.
 
 
 
