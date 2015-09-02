@@ -11,11 +11,11 @@ This script generates connectors for a PVC pipe dome.
 I built a dome out of wooden staffs @ CCCamp2015 and it was good, but hard to transport because it is so heavy.
 So i came up with the idea of a PVC pipe dome as they are cheap and readly available in all european countries.
 
-During the night of day4 we had a micro-apocalypse aka thunderstorm with lightnings and everything.
+During the night of day4 we had an apocalypse aka thunderstorm with lightnings, power failures and everything.
 I was "trapped" at the belgian fablab bus but it turned out to be very good.
 There i met Lieven Standaert and we had a little chat and i told him about my PVC dome plans and suddenly he pulled out a little connector that he made for exactly that purpose.
 
-Out of the ~5000 people at the camosite, i met the one i needed to talk to about this project.
+Out of the ~5000 people at the campsite, i met the one i needed to talk to about this project.
 He gave me a sample connector he made out of 6mm Polypropylene at his hackerspace for me as a sample.
 Some weeks later i got this script working and can now generate any kind of connector.
 
@@ -23,6 +23,8 @@ Usage:
 Just call the connector() function with a list of variables and degree offsets and you are fine.
 The samples below are from http://www.acidome.ru/lab/calc/
 V4, equal arcs, flat base
+
+For usage skip to the last 20 lines or so and you will fina a list of labels and degrees and how to call the connector() functioni. It is easy.
 
 
 
