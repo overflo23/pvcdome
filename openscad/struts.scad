@@ -49,7 +49,7 @@ mount_hole_dia=10;
 strut_width=17;
 
 // how long should each strut stand out of the baseplate (approximation-3mm)
-strut_length=43;
+strut_length=33;
 
 // should there be a hole for a ziptie in the struts?
 ziptie_hole_dia=5;
