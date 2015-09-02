@@ -125,7 +125,7 @@ module strut_outline(label)
         
         
         
-              // TEXT LABEL  this needs to be placed in the projection
+              // text label 
 
      translate([-(strut_width/2)+5,18,-(baseplate_height/2)-1])   linear_extrude(height = baseplate_height+2) { 
      text(str(label), font = "Liberation Sans", size = 7,center=true); 
