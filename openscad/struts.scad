@@ -5,6 +5,7 @@
 This work is licensed under
 Creative Commons Attribution 4.0 International License
 
+CC-BY (make sure to mention me / link back here if you use this for your project)
 
 This script generates connectors for a PVC pipe dome.
 
