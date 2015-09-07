@@ -46,7 +46,7 @@ mount_hole_dia=10;
 
 
 // how width should each strut be (aka inner diameter of your pipe - some)
-strut_width=17;
+strut_width=18;
 
 // how long should each strut stand out of the baseplate (approximation-3mm)
 strut_length=33;
@@ -282,28 +282,39 @@ strutlist_5= [
    [302.1,    "A"]
  ];
 
+module arrange_in_grid(spacing) {
+    rows = ceil(sqrt($children));
+    for(row = [0:rows]) {
+        for(column = [0:rows]) {
+            if(row*rows + column < $children)
+                translate([spacing * row, spacing * column, 0]) children(row*rows + column);
+        }
+    }
+}
 
 
 
 // 3d view
-connector(strutlist_1);
+//connector(strutlist_1);
 
 
 /*
 use this for 2d vectorpaths that you can export as .dxf for the lazzzor
-
-projection(cut = false)  connector(strutlist_1);
-projection(cut = false)  connector(strutlist_2);
-
-// these need a flat base so add ,1 as parameter
-projection(cut = false)  connector(strutlist_3,1);
-projection(cut = false)  connector(strutlist_4,1);
-
-projection(cut = false)  connector(strutlist_5);
-projection(cut = false)  connector(strutlist_6);
-projection(cut = false)  connector(strutlist_7);
-projection(cut = false)  connector(strutlist_8);
 */
+
+arrange_in_grid(baseplate_inner_dia + strut_length*2) {
+    projection(cut = false)  connector(strutlist_1);
+    projection(cut = false)  connector(strutlist_2);
+
+    // these need a flat base so add ,1 as parameter
+    projection(cut = false)  connector(strutlist_3,1);
+    projection(cut = false)  connector(strutlist_4,1);
+
+    projection(cut = false)  connector(strutlist_5);
+    projection(cut = false)  connector(strutlist_6);
+    projection(cut = false)  connector(strutlist_7);
+    projection(cut = false)  connector(strutlist_8);
+}
 
 
 
